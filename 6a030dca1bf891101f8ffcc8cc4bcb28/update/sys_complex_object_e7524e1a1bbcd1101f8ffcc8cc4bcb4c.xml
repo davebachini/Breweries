@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD27524e1a3ebcd1107b4d5b3578df4d4c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6a030dca1bf891101f8ffcc8cc4bcb28</scope_name>
+        <serialized_content>{"FlowDesigner:FD27524e1a3ebcd1107b4d5b3578df4d4c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD27524e1a3ebcd1107b4d5b3578df4d4c.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"68ef8e33-bbfa-4e79-8c65-0d03afc5fc12\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD27524e1a3ebcd1107b4d5b3578df4d4c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 07:57:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7524e1a1bbcd1101f8ffcc8cc4bcb4c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD27524e1a3ebcd1107b4d5b3578df4d4c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name>sys_complex_object_e7524e1a1bbcd1101f8ffcc8cc4bcb4c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 07:57:25</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
