@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch1-03-02-2022_03-17-2022_1811.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>list_of_breweries</internal_name>
+        <label_cache>[{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.website","label":"1➛Brewery➛Website","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.longitude","label":"1➛Brewery➛Longitude","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.latitude","label":"1➛Brewery➛Latitude","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.id","label":"1➛Brewery➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.phone","label":"1➛Brewery➛Phone","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.postal_code","label":"1➛Brewery➛Postal Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.state","label":"1➛Brewery➛State","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.country","label":"1➛Brewery➛Country","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.city","label":"1➛Brewery➛City","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.item_count","label":"1 - Get List of Breweries by City➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.page_count","label":"1 - Get List of Breweries by City➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.count","label":"1 - Get List of Breweries by City➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.ds_count","label":"1 - Get List of Breweries by City➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.item","label":"1 - Get List of Breweries by City➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.ds_output_page_variables","label":"1 - Get List of Breweries by City➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.response_headers","label":"1 - Get List of Breweries by City➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.error_message","label":"1 - Get List of Breweries by City➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.status_code","label":"1 - Get List of Breweries by City➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.error_code","label":"1 - Get List of Breweries by City➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.ds_parsed_stream","label":"1 - Get List of Breweries by City➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery","label":"1 - Get List of Breweries by City➛Brewery","reference_display":"Brewery","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDce23a99a493cd1108cd282f72ad47ba2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6a58bf68-0c22-465f-afcb-71b7f9815245"}},{"name":"63ef11b6-2573-4487-b29e-e7f4d3b489f7.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"63ef11b6-2573-4487-b29e-e7f4d3b489f7.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.name","label":"1➛Brewery➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"297c1910-c7eb-46e7-bdcb-7f1cbcace273.list","label":"2 - Test Action➛List","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"c727945e-d2a3-454a-952c-5b7c8f230347"}},{"name":"297c1910-c7eb-46e7-bdcb-7f1cbcace273.__action_status__","label":"2 - Test Action➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD88624e1a01bcd1107460f5de8cb392c9","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"68ef8e33-bbfa-4e79-8c65-0d03afc5fc12"}},{"name":"297c1910-c7eb-46e7-bdcb-7f1cbcace273.__dont_treat_as_error__","label":"2 - Test Action➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"fe3d6cc3-7dc5-457f-a836-f57997048058"}},{"name":"flow_variable.list_of_breweries","label":"Flow Variables➛List of Breweries","reference":"","reference_display":"","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d3664572-92dd-4569-a51f-b43d5fe2c74f"}},{"name":"a5383726-6746-4fb0-b590-f95e83d2954f.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5383726-6746-4fb0-b590-f95e83d2954f.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"REST API - Asynchronous_1.body.starting_page","label":"Trigger - REST API - Asynchronous➛Body➛Starting Page","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.number_of_pages","label":"Trigger - REST API - Asynchronous➛Body➛Number of Pages","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.number_of_records_per_page","label":"Trigger - REST API - Asynchronous➛Body➛Number of Records per Page","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.city","label":"Trigger - REST API - Asynchronous➛Body➛City","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.record","label":"3 - Create or Update Record➛Breweries Record","reference":"x_832172_openbrewe_breweries","reference_display":"Breweries","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.table_name","label":"3 - Create or Update Record➛Breweries Table","reference":"x_832172_openbrewe_breweries","reference_display":"Breweries","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.status","label":"3 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.error_message","label":"3 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.__action_status__","label":"3 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.__dont_treat_as_error__","label":"3 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.type","label":"1➛Brewery➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master_snapshot>401b1ade1bfcd1101f8ffcc8cc4bcb93</master_snapshot>
+        <name>List of Breweries</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>a11b9ade1bfcd1101f8ffcc8cc4bcb5c</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 04:27:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9142dd961bf8d1101f8ffcc8cc4bcb51</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>List of Breweries</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name>sys_hub_flow_9142dd961bf8d1101f8ffcc8cc4bcb51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_rest_api_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_operation display_value="POST /">ad1b9ade1bfcd1101f8ffcc8cc4bcb27</api_operation>
+        <name/>
+        <roles_acl/>
+        <sys_class_name>sys_rest_api_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a11b9ade1bfcd1101f8ffcc8cc4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+    </sys_rest_api_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT INd31a1a9e1bfcd1101f8ffcc8cc4bcb83"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</flow>
+        <name>REST API - Asynchronous</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:58</sys_created_on>
+        <sys_id>d31a1a9e1bfcd1101f8ffcc8cc4bcb83</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+        <trigger_definition display_value="REST API - Asynchronous">77ad0b76c71000101666868cb8c2601d</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>rest_async</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d31a1a9e1bfcd1101f8ffcc8cc4bcb83"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d31a1a9e1bfcd1101f8ffcc8cc4bcb83</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:58</sys_created_on>
+        <sys_id>931a1a9e1bfcd1101f8ffcc8cc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:58</sys_updated_on>
+        <value>/api/x_832172_openbrewe/list_of_breweries</value>
+        <variable display_value="Base Path">3af53c10c7531010bd2f868cb8c2608b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>d31a1a9e1bfcd1101f8ffcc8cc4bcb83</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:58</sys_created_on>
+        <sys_id>9b1a1a9e1bfcd1101f8ffcc8cc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:58</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">6b6fcc4bc71000101666868cb8c260a1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_77ad0b76c71000101666868cb8c2601d^id=d31a1a9e1bfcd1101f8ffcc8cc4bcb83"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_77ad0b76c71000101666868cb8c2601d^id=d31a1a9e1bfcd1101f8ffcc8cc4bcb83"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT IN1142dd961bf8d1101f8ffcc8cc4bcb53"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9142dd961bf8d1101f8ffcc8cc4bcb51</id>
+        <name>List of Breweries</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 04:27:05</sys_created_on>
+        <sys_id>1142dd961bf8d1101f8ffcc8cc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 04:27:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1142dd961bf8d1101f8ffcc8cc4bcb53"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT IN071a1a9e1bfcd1101f8ffcc8cc4bcb26,0f1a1a9e1bfcd1101f8ffcc8cc4bcb22,431a1a9e1bfcd1101f8ffcc8cc4bcb0c,4f1a1a9e1bfcd1101f8ffcc8cc4bcb12"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD3e1a1a9e68fcd110c1d38e2d63729509,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Body</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</model>
+        <model_id>9142dd961bf8d1101f8ffcc8cc4bcb51</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:57</sys_created_on>
+        <sys_id>071a1a9e1bfcd1101f8ffcc8cc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD7e1a1a9ea6fcd110e3ef420158e35c07,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>headers</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Headers</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</model>
+        <model_id>9142dd961bf8d1101f8ffcc8cc4bcb51</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <next_element/>
+        <order>140</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:57</sys_created_on>
+        <sys_id>0f1a1a9e1bfcd1101f8ffcc8cc4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD7a1ad69ed1fcd11006631d5d478cecf3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>path_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Path Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</model>
+        <model_id>9142dd961bf8d1101f8ffcc8cc4bcb51</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <next_element/>
+        <order>120</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:57</sys_created_on>
+        <sys_id>431a1a9e1bfcd1101f8ffcc8cc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDf61ad69eaffcd110756a984b927197f9,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</model>
+        <model_id>9142dd961bf8d1101f8ffcc8cc4bcb51</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <next_element/>
+        <order>130</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:57</sys_created_on>
+        <sys_id>4f1a1a9e1bfcd1101f8ffcc8cc4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT IN06d369da1b3cd1101f8ffcc8cc4bcb2b,6e016a561b3015101f8ffcc8cc4bcb8c"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get List of Breweries by City">cc23699a1b3cd1101f8ffcc8cc4bcb66</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>cc23699a1b3cd1101f8ffcc8cc4bcb66</compiled_snapshot>
+        <display_text/>
+        <flow display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>06d369da1b3cd1101f8ffcc8cc4bcb2b</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-24 13:06:31</sys_updated_on>
+        <ui_id>5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=06d369da1b3cd1101f8ffcc8cc4bcb2b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>06d369da1b3cd1101f8ffcc8cc4bcb2b</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>0ed369da1b3cd1101f8ffcc8cc4bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <value/>
+        <variable display_value="Starting Page">9423699a1b3cd1101f8ffcc8cc4bcb6a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>06d369da1b3cd1101f8ffcc8cc4bcb2b</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>4ad369da1b3cd1101f8ffcc8cc4bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <value/>
+        <variable display_value="City">9c23699a1b3cd1101f8ffcc8cc4bcb7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>06d369da1b3cd1101f8ffcc8cc4bcb2b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>86d369da1b3cd1101f8ffcc8cc4bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <value/>
+        <variable display_value="Number of Pages">9023699a1b3cd1101f8ffcc8cc4bcb72</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>06d369da1b3cd1101f8ffcc8cc4bcb2b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>c2d369da1b3cd1101f8ffcc8cc4bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <value/>
+        <variable display_value="Number of Records per Page">1823699a1b3cd1101f8ffcc8cc4bcb76</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=06d369da1b3cd1101f8ffcc8cc4bcb2b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>city</field>
+        <id>06d369da1b3cd1101f8ffcc8cc4bcb2b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>42d369da1b3cd1101f8ffcc8cc4bcb2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.city}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_pages</field>
+        <id>06d369da1b3cd1101f8ffcc8cc4bcb2b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>8ed369da1b3cd1101f8ffcc8cc4bcb2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.number_of_pages}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_records_per_page</field>
+        <id>06d369da1b3cd1101f8ffcc8cc4bcb2b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>cad369da1b3cd1101f8ffcc8cc4bcb2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.number_of_records_per_page}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>starting_page</field>
+        <id>06d369da1b3cd1101f8ffcc8cc4bcb2b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 05:43:52</sys_created_on>
+        <sys_id>0ad369da1b3cd1101f8ffcc8cc4bcb2d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.starting_page}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=06d369da1b3cd1101f8ffcc8cc4bcb2b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=06d369da1b3cd1101f8ffcc8cc4bcb2b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</flow>
+        <order>3</order>
+        <parent_ui_id>c0a4fe43-cd84-4e34-8c92-f9fe360f9b79</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:11:14</sys_created_on>
+        <sys_id>6e016a561b3015101f8ffcc8cc4bcb8c</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-24 13:06:31</sys_updated_on>
+        <ui_id>03f7bb1a-ce9d-46df-af1d-0f262764a83d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6e016a561b3015101f8ffcc8cc4bcb8c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6e016a561b3015101f8ffcc8cc4bcb8c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:11:14</sys_created_on>
+        <sys_id>22016a561b3015101f8ffcc8cc4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:11:14</sys_updated_on>
+        <value>x_832172_openbrewe_breweries</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6e016a561b3015101f8ffcc8cc4bcb8c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>6e016a561b3015101f8ffcc8cc4bcb8c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:11:14</sys_created_on>
+        <sys_id>e6016a561b3015101f8ffcc8cc4bcb8e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:37:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>name={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.name}}^city={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.city}}^country={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.country}}^state={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.state}}^postal_code={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.postal_code}}^phone={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.phone}}^url={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.id}}^latitude={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.latitude}}^longitude={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.longitude}}^website={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.website}}^type=fd-scripted^coalesce_fields=url</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6e016a561b3015101f8ffcc8cc4bcb8c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:11:14</sys_created_on>
+        <sys_id>ae016a561b3015101f8ffcc8cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:11:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6e016a561b3015101f8ffcc8cc4bcb8c^sys_idNOT IN46f6e2da1b3015101f8ffcc8cc4bcbd5"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>fields</input_name>
+        <instance>6e016a561b3015101f8ffcc8cc4bcb8c</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"type":{"scriptActive":true,"script":"var type \u003d fd_data._1__get_list_of_breweries_by_city.brewery.type;\nvar types \u003d {\n    \"micro\": \"Micro\",\n    \"nano\": \"Nano\",\n    \"regional\": \"Regional\",\n    \"brewpub\": \"Brewpub\",\n    \"large\": \"Large\",\n    \"planning\": \"Planning\",\n    \"bar\": \"Bar\",\n    \"contract\": \"Contract\",\n    \"proprietor\": \"Proprietor\"\n};\n\nreturn types[type];","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:37:08</sys_created_on>
+        <sys_id>46f6e2da1b3015101f8ffcc8cc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:37:08</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e016a561b3015101f8ffcc8cc4bcb8c"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT INd13be2121b7015101f8ffcc8cc4bcb6d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">193be2121b7015101f8ffcc8cc4bcb6c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:55:40</sys_created_on>
+        <sys_id>d13be2121b7015101f8ffcc8cc4bcb6d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+        <ui_id>c0a4fe43-cd84-4e34-8c92-f9fe360f9b79</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d13be2121b7015101f8ffcc8cc4bcb6d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>d13be2121b7015101f8ffcc8cc4bcb6d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:55:40</sys_created_on>
+        <sys_id>a93be2121b7015101f8ffcc8cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:55:40</sys_updated_on>
+        <value>Brewery Type is not "Closed"</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_9142dd961bf8d1101f8ffcc8cc4bcb51^id=d13be2121b7015101f8ffcc8cc4bcb6d"/>
+    <sys_element_mapping action="delete_multiple" query="id=d13be2121b7015101f8ffcc8cc4bcb6d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>d13be2121b7015101f8ffcc8cc4bcb6d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:55:40</sys_created_on>
+        <sys_id>293be2121b7015101f8ffcc8cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:55:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.type}}!=closed</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>d13be2121b7015101f8ffcc8cc4bcb6d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:55:40</sys_created_on>
+        <sys_id>653be2121b7015101f8ffcc8cc4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:55:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d13be2121b7015101f8ffcc8cc4bcb6d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d13be2121b7015101f8ffcc8cc4bcb6d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT IN35234e5a1bbcd1101f8ffcc8cc4bcb48"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d3664572-92dd-4569-a51f-b43d5fe2c74f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>list_of_breweries</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>List of Breweries</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</model>
+        <model_id>9142dd961bf8d1101f8ffcc8cc4bcb51</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 08:00:39</sys_created_on>
+        <sys_id>35234e5a1bbcd1101f8ffcc8cc4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of Breweries</sys_name>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_35234e5a1bbcd1101f8ffcc8cc4bcb48</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 08:00:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT IN471a1a9e1bfcd1101f8ffcc8cc4bcb25,4f1a1a9e1bfcd1101f8ffcc8cc4bcb21,5f1a1a9e1bfcd1101f8ffcc8cc4bcb28,8b1a1a9e1bfcd1101f8ffcc8cc4bcb11"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>headers</element>
+        <help/>
+        <hint/>
+        <label>Headers</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:57</sys_created_on>
+        <sys_id>471a1a9e1bfcd1101f8ffcc8cc4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>query_parameters</element>
+        <help/>
+        <hint/>
+        <label>Query Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:57</sys_created_on>
+        <sys_id>4f1a1a9e1bfcd1101f8ffcc8cc4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:58</sys_created_on>
+        <sys_id>5f1a1a9e1bfcd1101f8ffcc8cc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>path_parameters</element>
+        <help/>
+        <hint/>
+        <label>Path Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:40:57</sys_created_on>
+        <sys_id>8b1a1a9e1bfcd1101f8ffcc8cc4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:40:57</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9142dd961bf8d1101f8ffcc8cc4bcb51^sys_idNOT INe91b9ade1bfcd1101f8ffcc8cc4bcb5c"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"e91b9ade1bfcd1101f8ffcc8cc4bcb5c","name":"plan","plan_signature":null}}</plan>
+        <plan_id>9142dd961bf8d1101f8ffcc8cc4bcb51</plan_id>
+        <snapshot>1d5cd9471bf495101f8ffcc8cc4bcb14</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e91b9ade1bfcd1101f8ffcc8cc4bcb5c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+        <trigger display_value="">a11b9ade1bfcd1101f8ffcc8cc4bcb5c</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9142dd961bf8d1101f8ffcc8cc4bcb51"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>list_of_breweries</internal_name>
+        <label_cache>[{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.website","label":"1➛Brewery➛Website","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.longitude","label":"1➛Brewery➛Longitude","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.latitude","label":"1➛Brewery➛Latitude","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.id","label":"1➛Brewery➛ID","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.phone","label":"1➛Brewery➛Phone","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.postal_code","label":"1➛Brewery➛Postal Code","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.state","label":"1➛Brewery➛State","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.country","label":"1➛Brewery➛Country","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.city","label":"1➛Brewery➛City","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.item_count","label":"1 - Get List of Breweries by City➛Item Count","reference_display":"Item Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.page_count","label":"1 - Get List of Breweries by City➛Page Count","reference_display":"Page Count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","uiTypeLabel":"Integer","visible_in_ad":"false","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.count","label":"1 - Get List of Breweries by City➛count","reference_display":"count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.ds_count","label":"1 - Get List of Breweries by City➛ds_count","reference_display":"ds_count","type":"integer","base_type":"integer","attributes":{"uiType":"integer","visible_in_fd":"false","uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.item","label":"1 - Get List of Breweries by City➛item","reference_display":"item","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.ds_output_page_variables","label":"1 - Get List of Breweries by City➛ds_output_page_variables","reference_display":"ds_output_page_variables","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.response_headers","label":"1 - Get List of Breweries by City➛response_headers","reference_display":"response_headers","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.error_message","label":"1 - Get List of Breweries by City➛error_message","reference_display":"error_message","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.status_code","label":"1 - Get List of Breweries by City➛status_code","reference_display":"status_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.error_code","label":"1 - Get List of Breweries by City➛error_code","reference_display":"error_code","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.ds_parsed_stream","label":"1 - Get List of Breweries by City➛ds_parsed_stream","reference_display":"ds_parsed_stream","type":"string","base_type":"string","attributes":{"uiType":"string","visible_in_fd":"false","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery","label":"1 - Get List of Breweries by City➛Brewery","reference_display":"Brewery","type":"object","base_type":"object","attributes":{"uiType":"object","uiTypeLabel":"Object","co_type_name":"FDce23a99a493cd1108cd282f72ad47ba2","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6a58bf68-0c22-465f-afcb-71b7f9815245"}},{"name":"63ef11b6-2573-4487-b29e-e7f4d3b489f7.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"63ef11b6-2573-4487-b29e-e7f4d3b489f7.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.name","label":"1➛Brewery➛Name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"297c1910-c7eb-46e7-bdcb-7f1cbcace273.list","label":"2 - Test Action➛List","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"c727945e-d2a3-454a-952c-5b7c8f230347"}},{"name":"297c1910-c7eb-46e7-bdcb-7f1cbcace273.__action_status__","label":"2 - Test Action➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD88624e1a01bcd1107460f5de8cb392c9","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"68ef8e33-bbfa-4e79-8c65-0d03afc5fc12"}},{"name":"297c1910-c7eb-46e7-bdcb-7f1cbcace273.__dont_treat_as_error__","label":"2 - Test Action➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"fe3d6cc3-7dc5-457f-a836-f57997048058"}},{"name":"flow_variable.list_of_breweries","label":"Flow Variables➛List of Breweries","reference":"","reference_display":"","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"d3664572-92dd-4569-a51f-b43d5fe2c74f"}},{"name":"a5383726-6746-4fb0-b590-f95e83d2954f.__action_status__","label":"2 - Log➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a5383726-6746-4fb0-b590-f95e83d2954f.__dont_treat_as_error__","label":"2 - Log➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.table_name","label":"3 - Update Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"6aa84f11-d20a-438c-8ce6-4df37b5b9510.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"REST API - Asynchronous_1.body.starting_page","label":"Trigger - REST API - Asynchronous➛Body➛Starting Page","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.number_of_pages","label":"Trigger - REST API - Asynchronous➛Body➛Number of Pages","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.number_of_records_per_page","label":"Trigger - REST API - Asynchronous➛Body➛Number of Records per Page","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"REST API - Asynchronous_1.body.city","label":"Trigger - REST API - Asynchronous➛Body➛City","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.record","label":"3 - Create or Update Record➛Breweries Record","reference":"x_832172_openbrewe_breweries","reference_display":"Breweries","type":"reference","base_type":"reference","attributes":{"uiType":"document_id","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.table_name","label":"3 - Create or Update Record➛Breweries Table","reference":"x_832172_openbrewe_breweries","reference_display":"Breweries","type":"table_name","base_type":"table_name","attributes":{"uiType":"table_name","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.status","label":"3 - Create or Update Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Created","value":"created","order":1.0},{"label":"Updated","value":"updated","order":2.0},{"label":"Error","value":"error","order":3.0}],"attributes":{"uiType":"choice","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.error_message","label":"3 - Create or Update Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.__action_status__","label":"3 - Create or Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"03f7bb1a-ce9d-46df-af1d-0f262764a83d.__dont_treat_as_error__","label":"3 - Create or Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.type","label":"1➛Brewery➛Type","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>List of Breweries</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="List of Breweries">9142dd961bf8d1101f8ffcc8cc4bcb51</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>401b1ade1bfcd1101f8ffcc8cc4bcb93</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_variable_value action="delete_multiple" query="document_key=401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=401b1ade1bfcd1101f8ffcc8cc4bcb93^sys_idNOT IN781b5ade1bfcd1101f8ffcc8cc4bcb94"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</flow>
+        <name>REST API - Asynchronous</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>781b5ade1bfcd1101f8ffcc8cc4bcb94</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+        <trigger_definition display_value="REST API - Asynchronous">77ad0b76c71000101666868cb8c2601d</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>rest_async</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=781b5ade1bfcd1101f8ffcc8cc4bcb94"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>781b5ade1bfcd1101f8ffcc8cc4bcb94</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>741b5ade1bfcd1101f8ffcc8cc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:10</sys_updated_on>
+        <value>/api/x_832172_openbrewe/list_of_breweries</value>
+        <variable display_value="Base Path">3af53c10c7531010bd2f868cb8c2608b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>781b5ade1bfcd1101f8ffcc8cc4bcb94</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>b01b5ade1bfcd1101f8ffcc8cc4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:10</sys_updated_on>
+        <value>post</value>
+        <variable display_value="HTTP Method">6b6fcc4bc71000101666868cb8c260a1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_77ad0b76c71000101666868cb8c2601d^id=781b5ade1bfcd1101f8ffcc8cc4bcb94"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_77ad0b76c71000101666868cb8c2601d^id=781b5ade1bfcd1101f8ffcc8cc4bcb94"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=401b1ade1bfcd1101f8ffcc8cc4bcb93^sys_idNOT INd01b1ade1bfcd1101f8ffcc8cc4bcb94"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>401b1ade1bfcd1101f8ffcc8cc4bcb93</id>
+        <name>List of Breweries</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:07</sys_created_on>
+        <sys_id>d01b1ade1bfcd1101f8ffcc8cc4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d01b1ade1bfcd1101f8ffcc8cc4bcb94"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=401b1ade1bfcd1101f8ffcc8cc4bcb93^sys_idNOT IN141b1ade1bfcd1101f8ffcc8cc4bcb9d,181b5ade1bfcd1101f8ffcc8cc4bcb0a,981b5ade1bfcd1101f8ffcc8cc4bcb12,ac1b5ade1bfcd1101f8ffcc8cc4bcb1a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FDd01b1ade6afcd1108497e86b6b0fc995,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>path_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Path Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</model>
+        <model_id>401b1ade1bfcd1101f8ffcc8cc4bcb93</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <next_element/>
+        <order>120</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:08</sys_created_on>
+        <sys_id>141b1ade1bfcd1101f8ffcc8cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD901b1ade14fcd11089d11a5cef372097,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>query_parameters</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Query Parameters</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</model>
+        <model_id>401b1ade1bfcd1101f8ffcc8cc4bcb93</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <next_element/>
+        <order>130</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:08</sys_created_on>
+        <sys_id>181b5ade1bfcd1101f8ffcc8cc4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD501b1ade24fcd1100f603c83d71acf99,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>headers</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Headers</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</model>
+        <model_id>401b1ade1bfcd1101f8ffcc8cc4bcb93</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <next_element/>
+        <order>140</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:08</sys_created_on>
+        <sys_id>981b5ade1bfcd1101f8ffcc8cc4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD101b1ade7bfcd1104c099677bf49679b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>body</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Body</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</model>
+        <model_id>401b1ade1bfcd1101f8ffcc8cc4bcb93</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:08</sys_created_on>
+        <sys_id>ac1b5ade1bfcd1101f8ffcc8cc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=401b1ade1bfcd1101f8ffcc8cc4bcb93^sys_idNOT IN701b5ade1bfcd1101f8ffcc8cc4bcb8d,75eba2521b7015101f8ffcc8cc4bcb09"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get List of Breweries by City">cc23699a1b3cd1101f8ffcc8cc4bcb66</action_type>
+        <action_type_parent display_value="Get List of Breweries by City">7cb34d861b3c91101f8ffcc8cc4bcb91</action_type_parent>
+        <comment/>
+        <compiled_snapshot>cc23699a1b3cd1101f8ffcc8cc4bcb66</compiled_snapshot>
+        <display_text/>
+        <flow display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>701b5ade1bfcd1101f8ffcc8cc4bcb8d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:17</sys_updated_on>
+        <ui_id>5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=701b5ade1bfcd1101f8ffcc8cc4bcb8d"/>
+    <sys_element_mapping action="delete_multiple" query="id=701b5ade1bfcd1101f8ffcc8cc4bcb8d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>city</field>
+        <id>701b5ade1bfcd1101f8ffcc8cc4bcb8d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>7c1b5ade1bfcd1101f8ffcc8cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.city}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_pages</field>
+        <id>701b5ade1bfcd1101f8ffcc8cc4bcb8d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>b81b5ade1bfcd1101f8ffcc8cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.number_of_pages}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_records_per_page</field>
+        <id>701b5ade1bfcd1101f8ffcc8cc4bcb8d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>f41b5ade1bfcd1101f8ffcc8cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.number_of_records_per_page}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>starting_page</field>
+        <id>701b5ade1bfcd1101f8ffcc8cc4bcb8d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:10</sys_created_on>
+        <sys_id>341b5ade1bfcd1101f8ffcc8cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc23699a1b3cd1101f8ffcc8cc4bcb66</table>
+        <value>{{REST API - Asynchronous_1.body.starting_page}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=701b5ade1bfcd1101f8ffcc8cc4bcb8d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=701b5ade1bfcd1101f8ffcc8cc4bcb8d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</flow>
+        <order>3</order>
+        <parent_ui_id>c0a4fe43-cd84-4e34-8c92-f9fe360f9b79</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>75eba2521b7015101f8ffcc8cc4bcb09</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:17</sys_updated_on>
+        <ui_id>03f7bb1a-ce9d-46df-af1d-0f262764a83d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=75eba2521b7015101f8ffcc8cc4bcb09"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>75eba2521b7015101f8ffcc8cc4bcb09</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>b9eba2521b7015101f8ffcc8cc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:58:41</sys_updated_on>
+        <value>x_832172_openbrewe_breweries</value>
+        <variable display_value="Table Name">27575ae253b3230034c6ddeeff7b12f4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=75eba2521b7015101f8ffcc8cc4bcb09"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>75eba2521b7015101f8ffcc8cc4bcb09</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>75eba2521b7015101f8ffcc8cc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:58:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value>name={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.name}}^city={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.city}}^country={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.country}}^state={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.state}}^postal_code={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.postal_code}}^phone={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.phone}}^url={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.id}}^latitude={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.latitude}}^longitude={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.longitude}}^website={{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.website}}^type=fd-scripted^coalesce_fields=url</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>75eba2521b7015101f8ffcc8cc4bcb09</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>39eba2521b7015101f8ffcc8cc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:58:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ab575ae253b3230034c6ddeeff7b12f1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=75eba2521b7015101f8ffcc8cc4bcb09^sys_idNOT IN71eba2521b7015101f8ffcc8cc4bcb23"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>fields</input_name>
+        <instance>75eba2521b7015101f8ffcc8cc4bcb09</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"type":{"scriptActive":true,"script":"var type \u003d fd_data._1__get_list_of_breweries_by_city.brewery.type;\nvar types \u003d {\n    \"micro\": \"Micro\",\n    \"nano\": \"Nano\",\n    \"regional\": \"Regional\",\n    \"brewpub\": \"Brewpub\",\n    \"large\": \"Large\",\n    \"planning\": \"Planning\",\n    \"bar\": \"Bar\",\n    \"contract\": \"Contract\",\n    \"proprietor\": \"Proprietor\"\n};\n\nreturn types[type];","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>71eba2521b7015101f8ffcc8cc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:58:41</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=75eba2521b7015101f8ffcc8cc4bcb09"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=401b1ade1bfcd1101f8ffcc8cc4bcb93^sys_idNOT INb5eba2521b7015101f8ffcc8cc4bcb24"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">193be2121b7015101f8ffcc8cc4bcb6c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>b5eba2521b7015101f8ffcc8cc4bcb24</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:17</sys_updated_on>
+        <ui_id>c0a4fe43-cd84-4e34-8c92-f9fe360f9b79</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b5eba2521b7015101f8ffcc8cc4bcb24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>b5eba2521b7015101f8ffcc8cc4bcb24</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:42</sys_created_on>
+        <sys_id>bdeba2521b7015101f8ffcc8cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:58:42</sys_updated_on>
+        <value>Brewery Type is not "Closed"</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_401b1ade1bfcd1101f8ffcc8cc4bcb93^id=b5eba2521b7015101f8ffcc8cc4bcb24"/>
+    <sys_element_mapping action="delete_multiple" query="id=b5eba2521b7015101f8ffcc8cc4bcb24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>b5eba2521b7015101f8ffcc8cc4bcb24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>3deba2521b7015101f8ffcc8cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:58:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{5f22dbe3-bd59-47c7-a9a1-02b3c6b382e8.brewery.type}}!=closed</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>b5eba2521b7015101f8ffcc8cc4bcb24</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 10:58:41</sys_created_on>
+        <sys_id>79eba2521b7015101f8ffcc8cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 10:58:41</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b5eba2521b7015101f8ffcc8cc4bcb24"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b5eba2521b7015101f8ffcc8cc4bcb24"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=401b1ade1bfcd1101f8ffcc8cc4bcb93^sys_idNOT IN681b5ade1bfcd1101f8ffcc8cc4bcb4e"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d3664572-92dd-4569-a51f-b43d5fe2c74f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>list_of_breweries</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>List of Breweries</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="List of Breweries">401b1ade1bfcd1101f8ffcc8cc4bcb93</model>
+        <model_id>401b1ade1bfcd1101f8ffcc8cc4bcb93</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:09</sys_created_on>
+        <sys_id>681b5ade1bfcd1101f8ffcc8cc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of Breweries</sys_name>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_681b5ade1bfcd1101f8ffcc8cc4bcb4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93^sys_idNOT IN501b5ade1bfcd1101f8ffcc8cc4bcb0f,541b5ade1bfcd1101f8ffcc8cc4bcb17,a81b5ade1bfcd1101f8ffcc8cc4bcb1f,dc1b5ade1bfcd1101f8ffcc8cc4bcb06"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>query_parameters</element>
+        <help/>
+        <hint/>
+        <label>Query Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:08</sys_created_on>
+        <sys_id>501b5ade1bfcd1101f8ffcc8cc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>headers</element>
+        <help/>
+        <hint/>
+        <label>Headers</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:08</sys_created_on>
+        <sys_id>541b5ade1bfcd1101f8ffcc8cc4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>body</element>
+        <help/>
+        <hint/>
+        <label>Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:09</sys_created_on>
+        <sys_id>a81b5ade1bfcd1101f8ffcc8cc4bcb1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>path_parameters</element>
+        <help/>
+        <hint/>
+        <label>Path Parameters</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:08</sys_created_on>
+        <sys_id>dc1b5ade1bfcd1101f8ffcc8cc4bcb06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 09:45:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_401b1ade1bfcd1101f8ffcc8cc4bcb93"/>
+    <sys_hub_flow action="update">
+        <sys_id>9142dd961bf8d1101f8ffcc8cc4bcb51</sys_id>
+        <latest_snapshot>401b1ade1bfcd1101f8ffcc8cc4bcb93</latest_snapshot>
+    </sys_hub_flow>
+</record_update>

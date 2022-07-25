@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_operation">
+    <sys_api_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_collection display_value="Rest trigger for flow id=9142dd961bf8d1101f8ffcc8cc4bcb51 - v1">611b9ade1bfcd1101f8ffcc8cc4bcb24</api_collection>
+        <api_request display_value="Generated Request for 9142dd961bf8d1101f8ffcc8cc4bcb51">ac8ca292bc7015108aebab6a17818a0d</api_request>
+        <api_security_scheme display_value="">3c8ca2921b7015101f8ffcc8cc4bcb3d</api_security_scheme>
+        <deprecated>false</deprecated>
+        <description/>
+        <execute_asynchronously>true</execute_asynchronously>
+        <execution_record>9142dd961bf8d1101f8ffcc8cc4bcb51</execution_record>
+        <execution_type>sys_hub_flow</execution_type>
+        <http_method>post</http_method>
+        <name>POST /</name>
+        <operation_id/>
+        <origin>flow_designer</origin>
+        <path>/</path>
+        <sys_class_name>sys_api_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 09:45:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad1b9ade1bfcd1101f8ffcc8cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST /</sys_name>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name>sys_api_operation_ad1b9ade1bfcd1101f8ffcc8cc4bcb27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+    </sys_api_operation>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Breweries" max_length="40" name="x_832172_openbrewe_breweries" sizeclass="21" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="string"/>
+        <element label="Name" max_length="1000" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="string"/>
+        <element label="Postal Code" max_length="40" name="postal_code" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bar" value="bar"/>
+                <element inactive_on_update="false" label="Brewpub" value="brewpub"/>
+                <element inactive_on_update="false" label="Contract" value="contract"/>
+                <element inactive_on_update="false" label="Large" value="large"/>
+                <element inactive_on_update="false" label="Micro" value="micro"/>
+                <element inactive_on_update="false" label="Nano" value="nano"/>
+                <element inactive_on_update="false" label="Planning" value="planning"/>
+                <element inactive_on_update="false" label="Proprietor" value="proprietor"/>
+                <element inactive_on_update="false" label="Regional" value="regional"/>
+            </choice>
+        </element>
+        <element label="URL" max_length="1000" name="url" type="string"/>
+        <element label="Website" max_length="1000" name="website" type="string"/>
+    </element>
+</database>
