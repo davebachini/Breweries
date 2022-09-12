@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_target_values">
+    <pa_target_values action="INSERT_OR_UPDATE">
+        <next_target>20220801</next_target>
+        <sys_class_name>pa_target_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-08 01:20:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fd3bb611b3551101f8ffcc8cc4bcb55</sys_id>
+        <sys_name>2000</sys_name>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name>pa_target_values_2fd3bb611b3551101f8ffcc8cc4bcb55</sys_update_name>
+        <target display_value="Monthly Violations Count">3853bf611b3551101f8ffcc8cc4bcb26</target>
+        <target_at>20220701</target_at>
+        <target_name>Monthly Violations Count</target_name>
+        <target_review>00000000</target_review>
+        <value>2000</value>
+    </pa_target_values>
+</record_update>

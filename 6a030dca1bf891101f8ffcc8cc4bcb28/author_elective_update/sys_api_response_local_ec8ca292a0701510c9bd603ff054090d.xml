@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local">
+    <sys_api_response_local action="DELETE">
+        <api_collection/>
+        <api_operation display_value="POST /">ad1b9ade1bfcd1101f8ffcc8cc4bcb27</api_operation>
+        <description/>
+        <name>Generated Request for 9142dd961bf8d1101f8ffcc8cc4bcb51</name>
+        <status_code>202</status_code>
+        <sys_class_name>sys_api_response_local</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 11:01:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>ec8ca292a0701510c9bd603ff054090d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ad1b9ade1bfcd1101f8ffcc8cc4bcb27</sys_name>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_update_name>sys_api_response_local_ec8ca292a0701510c9bd603ff054090d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+    </sys_api_response_local>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</application>
+        <file_path/>
+        <instance_id>3ed2a421dbf0f3c04d2bac44d4961916</instance_id>
+        <instance_name>dev80684</instance_name>
+        <name>sys_api_response_local_ec8ca292a0701510c9bd603ff054090d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_api_response_local"><sys_api_response_local action="INSERT_OR_UPDATE"><api_collection/><api_operation display_value="POST /">ad1b9ade1bfcd1101f8ffcc8cc4bcb27</api_operation><description/><name>Generated Request for 9142dd961bf8d1101f8ffcc8cc4bcb51</name><status_code>202</status_code><sys_class_name>sys_api_response_local</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-22 11:01:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>ec8ca292a0701510c9bd603ff054090d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ad1b9ade1bfcd1101f8ffcc8cc4bcb27</sys_name><sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package><sys_policy/><sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope><sys_update_name>sys_api_response_local_ec8ca292a0701510c9bd603ff054090d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-22 11:01:21</sys_updated_on></sys_api_response_local></record_update>]]></payload>
+        <payload_hash>708054607</payload_hash>
+        <record_name>ad1b9ade1bfcd1101f8ffcc8cc4bcb27</record_name>
+        <reverted_from/>
+        <source>e2030dca1bf891101f8ffcc8cc4bcb2b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-22 11:01:21</sys_created_on>
+        <sys_id>748ca2921b7015101f8ffcc8cc4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1822591b0a30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-22 11:01:21</sys_updated_on>
+        <type>Local API Response</type>
+        <update_guid>bc8ca2925c701510a9cbe804ea970b3c</update_guid>
+        <update_guid_history>bc8ca2925c701510a9cbe804ea970b3c:708054607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 05:00:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_api_response_local">sys_api_response_local</sys_db_object>
+        <sys_id>73ff8d03e30046848885302f0bf78310</sys_id>
+        <sys_metadata>ec8ca292a0701510c9bd603ff054090d</sys_metadata>
+        <sys_name>ad1b9ade1bfcd1101f8ffcc8cc4bcb27</sys_name>
+        <sys_package display_value="OpenBrewery" source="x_832172_openbrewe">6a030dca1bf891101f8ffcc8cc4bcb28</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OpenBrewery">6a030dca1bf891101f8ffcc8cc4bcb28</sys_scope>
+        <sys_scope_delete display_value="">6a04b453c6444628aee370c28173ee40</sys_scope_delete>
+        <sys_update_name>sys_api_response_local_ec8ca292a0701510c9bd603ff054090d</sys_update_name>
+        <sys_update_version display_value="sys_api_response_local_ec8ca292a0701510c9bd603ff054090d">748ca2921b7015101f8ffcc8cc4bcb3d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
